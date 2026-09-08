@@ -25,3 +25,7 @@ En el componente de login:
 * Hooks de estado para manejar los campos de usuario y contraseña.
 * Una accion del boton que se conecte con la API para autenticar al usuario. (clase servicio)
 
+```ts
+const usuario:Usuario={id:0,nombre:"",email:campoemail,clave:campoclave,token:""}
+UsuarioAPI.Login(usuario);
+```
