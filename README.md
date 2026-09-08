@@ -18,3 +18,10 @@ La API permite realizar operaciones CRUD sobre los usuarios, es decir:
 Recuerde que para realizar las operaciones de **Actualizar** y **Borrar** necesita el `id` del usuario, que puede obtener de la lista de usuarios.
 
 Además, asegúrese de manejar correctamente los errores que puedan surgir al interactuar con la API, como usuarios no encontrados o problemas de conexión.
+
+## Login
+
+En el componente de login:
+* Hooks de estado para manejar los campos de usuario y contraseña.
+* Una accion del boton que se conecte con la API para autenticar al usuario. (clase servicio)
+
